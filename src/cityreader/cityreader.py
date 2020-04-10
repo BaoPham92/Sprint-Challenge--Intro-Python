@@ -128,5 +128,4 @@ def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
 # Enter lat2,lon2: 32,-120
 lat_lon1 = input('Input first latitude, and first longitude.').split(',')
 lat_lon2 = input('Input second latitude, and second longitude.').split(',')
-lat1, lon1, lat2, lon2 = float(lat_lon1[0]), float(
-    lat_lon1[1]), float(lat_lon2[0]), float(lat_lon2[1])
+lat1, lon1, lat2, lon2 = lat_lon1[0], lat_lon1[1], lat_lon2[0], lat_lon2[1]
